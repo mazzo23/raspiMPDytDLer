@@ -241,3 +241,7 @@ youtube-dl --console-title --hls-prefer-native -c --no-part "https://apasfiis.sf
 #id3Tags for fixing the metadata
 
 https://squell.github.io/id3/
+
+#MPD WebClient
+
+https://fatg3erman.github.io/RompR/
