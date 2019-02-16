@@ -4,7 +4,7 @@
 #################################
 this guide assumes you already have a clean raspbian with all nessesary network stuff installed and ready to go. 
 here is where we start.
-Basic intsall routine for all Linux distros(i guess).
+Basic install routine for all Linux distros(i guess).
 
 #################
 #ssh into raspi #
