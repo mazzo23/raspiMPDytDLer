@@ -4,7 +4,7 @@
 #################################
 this guide assumes you already have a clean raspbian with all nessesary network stuff installed and ready to go. 
 here is where we start.
-Basic intall routine for all Linux distros(i guess).
+Basic intsall routine for all Linux distros(i guess).
 
 #################
 #ssh into raspi #
@@ -28,7 +28,7 @@ sudo apt install mpd
 
 sudo apt install mpc 
 
-sudo apt install ncmpcpp
+sudo apt install ncmpcpp 
 
 #nice terminal that works well together with ncmpcpp (for client only, no use on raspi)
 sudo apt install tilda 
@@ -72,11 +72,6 @@ audio_output {
     name            "My ALSA Device"
     device          "hw:0,0"        # optional
    #format          "44100:16:2"    # optional
-}
-audio_output {
-    type "alsa"
-    name "my ALSA device2"
-    device "hw:0"
 }
 audio_output {
     type                    "fifo"
@@ -182,7 +177,7 @@ enable_window_title = "yes"
 song_columns_list_format = "(25)[cyan]{a} (40)[]{f} (30)[red]{b} (7f)[green]{l}"
 
 ##############################################################################
-#OR us this:
+#OR use this:
 
 #mpc 
 sudo apt install mpc
@@ -199,9 +194,6 @@ mpc -h IP OPTION
 mpc -h 192.168.0.102 playlist
 
 
-
-
-
 ##########################################################-MPC-###########################################################
 
 ###########
@@ -216,6 +208,7 @@ alsamixer
 
 #to ~92% to counter clipping (better Power Supply would be good) atm running at 1.8A phone charger but no crashes so far
 #(no HDMI or USB exept the 64Gb SD)  
+
 #-----------------------------------------------------------------------------------------------------------------------#
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 #########################################################################################################################
@@ -225,16 +218,17 @@ alsamixer
 #####################										  
 #Console Commands:#############-https://github.com/rg3/youtube-dl/blob/master/README.md#readme
 #########################################################################################################################
+#########################################################################################################################
 #replace url from the playlist you created in Youtube, and execute the command to download the out to "/home/pi/Music/"##
 #########################################################################################################################
 
 
 #downloads a saved YT-playlist(must be unlisted or public)and converts it to *.MP3
-youtube-dl https://www.youtube.com/playlist?list=PLoUzyPs5snEf1GuRlSAfl95CVwcJAVgVr -x --audio-format "mp3" --audio-quality 0 --add-metadata --metadata-from-title "%(artist)s - %(title)s" --verbose -o "/home/pi/Music/%(title)s.%(ext)s"
+youtube-dl https://www.youtube.com/playlist?list=XXXXXXXXXXXXXXXXXXXXXXX -x --audio-format "mp3" --audio-quality 0 --add-metadata --metadata-from-title "%(artist)s - %(title)s" --verbose -o "/home/pi/Music/%(title)s.%(ext)s"
 
 
 #dowloads a video from tvthek.orf.at (find *.m3u8 playlist first then replace url) converts to *.MP4
-youtube-dl --console-title --hls-prefer-native -c --no-part "https://apasfiis.sf.apa.at/ipad/cms-austria/2019-01-22_2015_in_02_Universum--Dyna_____14002090__o__7702361505__s14434296_Q8C.mp4/playlist.m3u8" -o "/home/mazzo/Videos/Universum - Löwen.mp4"
+youtube-dl --console-title --hls-prefer-native -c --no-part "https://apasfiis.sf.apa.at/ipad/cms-austria/2019-01-22_2015_in_02_Universum--Dyna_____14002090__o__7702361505__s14434296_Q8C.mp4/playlist.m3u8" -o "/home/pi/Videos/Universum - Löwen.mp4"
 
 #########################################################################################################################
 
