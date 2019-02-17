@@ -5,19 +5,20 @@ here is where we start.
 Basic install routine for all Linux distros(i guess).
 
 #  essentials
-**ffmpeg**
-*(video and conversion)*
 
-**youtube-dl** 
+**ffmpeg**  
+*(video and audio conversion)*
+
+**youtube-dl**   
 *(downloading youtube streams)*
 
-**mpd**
+**mpd**  
 *The Daemon*
 
-**mpc** 
+**mpc**  
 *to control the Daemon*
 
-**ncmpcpp** 
+**ncmpcpp**   
 *next lvl control*
 
 **tilda**
