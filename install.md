@@ -151,12 +151,9 @@ to ~92% to counter clipping (better Power Supply would be good) atm running at 1
 
 # YT-DLer 
 ### Download Youtube Videos and convert them to MP3
-
-Console Commands: https://github.com/rg3/youtube-dl/blob/master/README.md#options
-
-
 **replace url from the playlist you created in Youtube, and execute the command to download the output to "/home/pi/Music/"**
 
+Console Commands: https://github.com/rg3/youtube-dl/blob/master/README.md#options
 
 ##### downloads a saved YT-playlist(must be unlisted or public)and converts it to *.MP3  
 youtube-dl https://www.youtube.com/playlist?list=XXXXXXXXXXXXXXXXXXXXXXX -x --audio-format "mp3" --audio-quality 0 --add-metadata --metadata-from-title "%(artist)s - %(title)s" --verbose -o "/home/pi/Music/%(title)s.%(ext)s"
@@ -167,11 +164,12 @@ youtube-dl --console-title --hls-prefer-native -c --no-part "https://apasfiis.sf
 
 # features
 
+### MPD WebClient
+
+https://fatg3erman.github.io/RompR/
+
 ### id3Tags for fixing the metadata
 
 https://squell.github.io/id3/
 
-### MPD WebClient
-
-https://fatg3erman.github.io/RompR/
 
