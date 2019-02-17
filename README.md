@@ -6,7 +6,7 @@ Basic install routine for all Linux distros(i guess).
 
 #  essentials
 
-**ffmpeg** 
+**ffmpeg**  
 *for video and audio conversion*
 
 **youtube-dl**  
