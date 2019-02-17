@@ -4,24 +4,24 @@ this guide assumes you already have a clean raspbian with all nessesary network 
 here is where we start.
 Basic install routine for all Linux distros(i guess).
 
- essentials
-**ffmpeg (video and conversion)**
-sudo apt install ffmpeg
+#  essentials
+**ffmpeg**
+*(video and conversion)*
 
-**youtube-dl (downloading youtube streams)**
+**youtube-dl** 
+*(downloading youtube streams)*
 
-sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+**mpd**
+*The Daemon*
 
-sudo chmod a+rx /usr/local/bin/youtube-dl
+**mpc** 
+*to control the Daemon*
 
-# Daemon Control
-sudo apt install mpd
+**ncmpcpp** 
+*next lvl control*
 
-sudo apt install mpc 
+**tilda**
+*nice terminal that works well together with ncmpcpp (for client only, no use on raspi)*
 
-sudo apt install ncmpcpp 
-
-##### nice terminal that works well together with ncmpcpp (for client only, no use on raspi)
-sudo apt install tilda 
 
 
