@@ -1,14 +1,14 @@
 # raspiMPDytDLer
 #################################
-#Installation of raspiMPDytDLer:#
+# Installation of raspiMPDytDLer:#
 #################################
 this guide assumes you already have a clean raspbian with all nessesary network stuff installed and ready to go. 
 here is where we start.
 Basic install routine for all Linux distros(i guess).
 
-#essentials
+# essentials
 
-#ffmpeg (video and conversion)
+# ffmpeg (video and conversion)
 sudo apt install ffmpeg 
 
 #youtube-dl (downloading youtube streams)
