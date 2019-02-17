@@ -54,13 +54,13 @@ port "6600"
 `mpc stats`
 `mpc play`
 
-#### kill the Daemon
+to kill the Daemon
 `sudo killall mpd` or `pidof mpd` then`kill PID`
 
 # MPC(Client):
 ### Remoteconnection(client to MPD):
 
-if not local(client case) then get ip with a scan for OS.
+if not local (client case) then get ip with a scan for the OS.
 
 `sudo apt install nmap`
 
