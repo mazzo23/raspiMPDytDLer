@@ -10,7 +10,7 @@ Basic install routine for all Linux distros(i guess).
 *for video and audio conversion*
 
 **youtube-dl**  
-* for downloading youtube and other streams*
+*for downloading youtube and other streams*
 
 **mpd**  
 *The Daemon*
