@@ -152,7 +152,7 @@ to ~92% to counter clipping (better Power Supply would be good) atm running at 1
 # YT-DLer 
 ### Download Youtube Videos and convert them to MP3
 
-Console Commands: https://github.com/rg3/youtube-dl/blob/master/README.md#readme
+Console Commands: https://github.com/rg3/youtube-dl/blob/master/README.md#options
 
 ## replace url from the playlist you created in Youtube, and execute the command to download the out to "/home/pi/Music/"##
 
