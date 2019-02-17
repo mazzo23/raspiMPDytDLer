@@ -154,7 +154,8 @@ to ~92% to counter clipping (better Power Supply would be good) atm running at 1
 
 Console Commands: https://github.com/rg3/youtube-dl/blob/master/README.md#options
 
-### replace url from the playlist you created in Youtube, and execute the command to download the output to "/home/pi/Music/"
+
+**replace url from the playlist you created in Youtube, and execute the command to download the output to "/home/pi/Music/"**
 
 
 ##### downloads a saved YT-playlist(must be unlisted or public)and converts it to *.MP3  
