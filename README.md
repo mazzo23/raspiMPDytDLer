@@ -21,7 +21,7 @@ Basic install routine for all Linux distros(i guess).
 **ncmpcpp**  
 *next lvl control*
 
-**tilda**
+**tilda** 
 *nice terminal that works well together with ncmpcpp (for client only, no use on raspi)*
 
 
