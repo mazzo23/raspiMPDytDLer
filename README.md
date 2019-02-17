@@ -22,7 +22,7 @@ Basic install routine for all Linux distros(i guess).
 *Commandline player... next lvl control of the Daemon*
 
 **Rompr**  
-*Webinterface... ultimativ control of the Daemon*  
+*Webinterface... ultimate control of the Daemon*  
 
 **tilda**  
 *nice terminal that works well together with ncmpcpp (for client only, no use on raspi)*  
