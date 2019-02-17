@@ -6,11 +6,11 @@ Basic install routine for all Linux distros(i guess).
 
 #  essentials
 
-**ffmpeg**  
-*(video and audio conversion)*
+**ffmpeg** 
+*for video and audio conversion*
 
-**youtube-dl**   
-*(downloading youtube streams)*
+**youtube-dl**  
+* for downloading youtube and other streams*
 
 **mpd**  
 *The Daemon*
@@ -18,7 +18,7 @@ Basic install routine for all Linux distros(i guess).
 **mpc**  
 *to control the Daemon*
 
-**ncmpcpp**   
+**ncmpcpp**  
 *next lvl control*
 
 **tilda**
