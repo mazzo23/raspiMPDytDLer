@@ -1,7 +1,7 @@
 # MPD(Daemon):
 
 ### ssh into raspi 
-`ssh pi@192.168.0.102` 
+`ssh pi@192.168.xxx.xxx` 
 
 ### mpd
 `sudo apt install mpd`
