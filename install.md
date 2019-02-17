@@ -54,7 +54,7 @@ port "6600"
 `mpc stats`
 `mpc play`
 
-#### kill
+#### kill the Daemon
 `sudo killall mpd` or `pidof mpd` then`kill PID`
 
 # MPC(Client):
