@@ -1,37 +1,8 @@
-# raspiMPDytDLer
-#################################
-#Installation of raspiMPDytDLer:#
-#################################
-this guide assumes you already have a clean raspbian with all nessesary network stuff installed and ready to go. 
-here is where we start.
-Basic install routine for all Linux distros(i guess).
-
 #################
 #ssh into raspi #
 #user=pi	#
 #pw=w@w		#	
 #################
-
-#essentials:
-
-#ffmpeg (video and conversion)
-sudo apt install ffmpeg 
-
-#youtube-dl (downloading youtube streams)
-
-sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
-
-sudo chmod a+rx /usr/local/bin/youtube-dl
-
-#Daemon Control
-sudo apt install mpd
-
-sudo apt install mpc 
-
-sudo apt install ncmpcpp 
-
-#nice terminal that works well together with ncmpcpp (for client only, no use on raspi)
-sudo apt install tilda 
 
 
 ##########################################################-MPD-###########################################################
@@ -41,7 +12,7 @@ sudo apt install tilda
 #mpd
 sudo apt install mpd
 
-#config:
+# make config files:
 
 mkdir ~/.mpd .ncmpcpp
 
@@ -129,6 +100,25 @@ ncmpcpp -h 192.168.0.xxx ==> to connect to MPD
 
 connect to MPD as client with ncmpcpp/mpc to control the MPD (get IP from raspi if not local) 
 
+#OR use this:
+
+#mpc 
+sudo apt install mpc
+
+to control the Daemon :)
+
+ex.:
+mpc -h 192.168.0.102 playlist 
+mpc -h 192.168.0.102 play (pause,next,stop,...)
+
+mpc -h IP OPTION
+
+#or 
+
+mpc stats
+mpc play (when local)
+
+
 ######################
 # in .ncmpcpp create:#
 ######################
@@ -177,22 +167,6 @@ enable_window_title = "yes"
 song_columns_list_format = "(25)[cyan]{a} (40)[]{f} (30)[red]{b} (7f)[green]{l}"
 
 ##############################################################################
-#OR use this:
-
-#mpc 
-sudo apt install mpc
-
-to control the Daemon :)
-
-ex.:
-mpc stats
-mpc -h 192.168.0.102 playlist 
-mpc -h 192.168.0.102 play (pause,next,stop,...)
-
-mpc -h IP OPTION
-
-mpc -h 192.168.0.102 playlist
-
 
 ##########################################################-MPC-###########################################################
 

@@ -1,6 +1,6 @@
 # Installation of raspiMPDytDLer:
 
-this guide assumes you already have a clean raspbian with all nessesary network stuff installed and ready to go. 
+this guide assumes you already have a clean raspbian with all nessesary network stuff configured  and ready to go. 
 here is where we start.
 Basic install routine for all Linux distros(i guess).
 
@@ -13,16 +13,16 @@ Basic install routine for all Linux distros(i guess).
 *for video and audio conversion*
 
 **youtube-dl**  
-*for downloading youtube and other streams*
+*for downloading youtube videos and other streams*
 
 **mpc**  
 *to control the Daemon*
 
 **ncmpcpp**  
-*next lvl control*
+*Commandline player... next lvl control of the Daemon*
+
+**Rompr**  
+*Webinterface... ultimativ control of the Daemon*  
 
 **tilda**  
-*nice terminal that works well together with ncmpcpp (for client only, no use on raspi)*
-
-
-
+*nice terminal that works well together with ncmpcpp (for client only, no use on raspi)*  
