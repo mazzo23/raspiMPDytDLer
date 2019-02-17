@@ -10,7 +10,7 @@
 
 `mkdir ~/.mpd .ncmpcpp` 
 
-## in .mpd create:
+### in .mpd create:
 `touch mpd.conf`
 
 ### insert:
@@ -93,7 +93,7 @@ or (when local)
 `mpc stats`
 `mpc play`
 
-## in .ncmpcpp create:#
+### in .ncmpcpp create:#
 
 `touch config`
 
@@ -162,13 +162,13 @@ Console Commands: https://github.com/rg3/youtube-dl/blob/master/README.md#option
 ##### dowloads a video from tvthek.orf.at (find *.m3u8 playlist first then replace url) converts to *.MP4  
 `youtube-dl --console-title --hls-prefer-native -c --no-part "https://apasfiis.sf.apa.at/ipad/cms-austria/2019-01-22_2015_in_02_Universum--Dyna_____14002090__o__7702361505__s14434296_Q8C.mp4/playlist.m3u8" -o "/home/pi/Videos/Universum - Löwen.mp4"`
 
-## features
+## cool features
 
-### MPD WebClient
+#### MPD WebClient
 
 https://fatg3erman.github.io/RompR/
 
-### id3Tags for fixing the metadata
+#### id3Tags for fixing the metadata
 
 https://squell.github.io/id3/
 
