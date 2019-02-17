@@ -10,13 +10,11 @@
 
 `mkdir ~/.mpd .ncmpcpp` 
 
-### in .mpd create:
+## in .mpd create:
 `touch mpd.conf`
 
 ### insert:
 `nano mpd.conf`
-
-##########################################################
 ```music_directory "/home/pi/Music/"
 playlist_directory "/home/pi/.mpd/"
 db_file "/home/pi/.mpd/mpd.db"
@@ -49,80 +47,59 @@ audio_output {
 bind_to_address "127.0.0.1"
 port "6600"
 ```
+### Start/Restart MPD:
 
-##########################################################
-
-#Start/Restart MPD:
-
-#kill
-sudo killall mpd
-#or
-pidof mpd 
-kill PID
-
-#start
+### start(local)
 mpd
 mpc stats 
 mpc play
 
-##########################################################-MPD-##########################################################
+#### kill
+`sudo killall mpd` or `pidof mpd` then`kill PID`
 
-##########################################################-MPC-##########################################################
-#MPC(Client):
-#Remoteconnection(client to MPD):
+# MPC(Client):
+### Remoteconnection(client to MPD):
 
-if not local(client case) then get ip:
+if not local(client case) then get ip with a scan for OS.
 
-#scan for OS and u find it
+`sudo apt install nmap`
 
-sudo apt install nmap
+`nmap -sn 192.168.1.0/24` basic scan... `man nmap`
 
-nmap -sn 192.168.1.0/24 #basic scan
-
-man nmap
-
-###################
-#Clients USE this:#
-###################
-
-#ncmpcpp 
-sudo apt install ncmpcpp 
-
-ncmpcpp is just awesome looking; you can do the same with mpc basically.
-i use it just because awesome.
-
-ncmpcpp -h 192.168.0.xxx ==> to connect to MPD 
-
-connect to MPD as client with ncmpcpp/mpc to control the MPD (get IP from raspi if not local) 
-
-#OR use this:
-
-#mpc 
-sudo apt install mpc
-
+# Clients USE this:
 to control the Daemon :)
 
+### ncmpcpp 
+`sudo apt install ncmpcpp`
+connect to MPD as client with ncmpcpp/mpc to control the MPD (get IP from raspi if not local) 
+ncmpcpp is just awesome looking; you can do the same with mpc basically.
+i use it just because its awesome.
+
+`ncmpcpp -h 192.168.0.xxx` ==> to connect to MPD 
+
+### OR use this:
+
+### mpc 
+`sudo apt install mpc`
+
 ex.:
-mpc -h 192.168.0.102 playlist 
-mpc -h 192.168.0.102 play (pause,next,stop,...)
 
-mpc -h IP OPTION
+`mpc -h IP OPTION`
+`mpc -h 192.168.0.102 playlist`
+`mpc -h 192.168.0.102 play (pause,next,stop,...)`
 
-#or 
+or (when local)
 
-mpc stats
-mpc play (when local)
+`mpc stats`
+`mpc play`
 
+## in .ncmpcpp create:#
 
-######################
-# in .ncmpcpp create:#
-######################
+`touch config`
 
-touch config
+### insert:
 
-#insert:
-
-nano .ncmpcpp/config
+`nano .ncmpcpp/config`
 
 ##############################################################################
 % egrep -v '^#' .ncmpcpp/config
