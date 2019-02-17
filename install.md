@@ -50,9 +50,9 @@ port "6600"
 ### Start/Restart MPD:
 
 ### start(local)
-mpd
-mpc stats 
-mpc play
+`mpd`
+`mpc stats`
+`mpc play`
 
 #### kill
 `sudo killall mpd` or `pidof mpd` then`kill PID`
