@@ -6,7 +6,7 @@ this guide assumes you already have a clean raspbian with all nessesary network 
 here is where we start.
 Basic install routine for all Linux distros(i guess).
 
-#essentials:
+#essentials
 
 #ffmpeg (video and conversion)
 sudo apt install ffmpeg 
