@@ -1,8 +1,5 @@
 # ssh into raspi 
-user=pi	
-pw=w@w  
-
-########################################################-MPD-###########################################################
+`ssh pi@192.168.0.102` 
 
 # MPD(Daemon):
 
@@ -20,7 +17,7 @@ pw=w@w
 `nano mpd.conf`
 
 ##########################################################
-music_directory "/home/pi/Music/"
+`music_directory "/home/pi/Music/"
 playlist_directory "/home/pi/.mpd/"
 db_file "/home/pi/.mpd/mpd.db"
 log_file "/home/pi/.mpd/mpd.log"
@@ -50,7 +47,7 @@ audio_output {
 
  
 bind_to_address "127.0.0.1"
-port "6600"
+port "6600"`
 
 ##########################################################
 
