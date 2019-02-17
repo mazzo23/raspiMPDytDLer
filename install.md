@@ -6,18 +6,18 @@ pw=w@w
 
 # MPD(Daemon):
 
-## mpd
+### mpd
 `sudo apt install mpd`
 
-## make config files:
+### make config files:
 
-'mkdir ~/.mpd .ncmpcpp'
+`mkdir ~/.mpd .ncmpcpp` 
 
-## in .mpd create:
-touch mpd.conf
+### in .mpd create:
+`touch mpd.conf`
 
-## insert:
-nano mpd.conf
+### insert:
+`nano mpd.conf`
 
 ##########################################################
 music_directory "/home/pi/Music/"
