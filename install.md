@@ -70,8 +70,8 @@ if not local (client case) then get ip with a scan for the OS.
 to control the Daemon :)
 
 ### ncmpcpp 
-`sudo apt install ncmpcpp`
-connect to MPD as client with ncmpcpp/mpc to control the MPD (get IP from raspi if not local) 
+
+`sudo apt install ncmpcpp` to connect to MPD as client with ncmpcpp/mpc to control the MPD.   
 ncmpcpp is just awesome looking; you can do the same with mpc basically.
 i use it just because its awesome.
 
@@ -101,8 +101,7 @@ or (when local)
 
 `nano .ncmpcpp/config`
 
-##############################################################################
-% egrep -v '^#' .ncmpcpp/config
+```% egrep -v '^#' .ncmpcpp/config
 mpd_host = "127.0.0.1"
 mpd_port = "6600"
 mpd_music_dir = "/home/pi/Music/"
@@ -137,52 +136,41 @@ mouse_list_scroll_whole_page = "yes"
 lines_scrolled = "1"
 enable_window_title = "yes"
 song_columns_list_format = "(25)[cyan]{a} (40)[]{f} (30)[red]{b} (7f)[green]{l}"
+```
 
-##############################################################################
+# alsamixer
 
-##########################################################-MPC-###########################################################
+`sudo apt install alsa-utils`
 
-###########
-#alsamixer#
-###########
+#### important!... was looking too long for this setting(no GUI)... just turn it up a bit Oo
 
-sudo apt install alsa-utils
+`alsamixer`
 
-#important!... was looking too long for this setting(no GUI)... just turn it up a bit Oo
+to ~92% to counter clipping (better Power Supply would be good) atm running at 1.8A phone charger but no crashes so far
+(no HDMI or USB exept the 64Gb SD)  
 
-alsamixer
+# YT-DLer 
+### Download Youtube Videos and convert them to MP3
 
-#to ~92% to counter clipping (better Power Supply would be good) atm running at 1.8A phone charger but no crashes so far
-#(no HDMI or USB exept the 64Gb SD)  
+Console Commands: https://github.com/rg3/youtube-dl/blob/master/README.md#readme
 
-#-----------------------------------------------------------------------------------------------------------------------#
-#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
-#########################################################################################################################
-########################################################-YT-DLer-########################################################
-##################################-Download Youtube Videos and convert them to MP3-######################################
-#########################################################################################################################
-#####################										  
-#Console Commands:#############-https://github.com/rg3/youtube-dl/blob/master/README.md#readme
-#########################################################################################################################
-#########################################################################################################################
-#replace url from the playlist you created in Youtube, and execute the command to download the out to "/home/pi/Music/"##
-#########################################################################################################################
+## replace url from the playlist you created in Youtube, and execute the command to download the out to "/home/pi/Music/"##
 
 
-#downloads a saved YT-playlist(must be unlisted or public)and converts it to *.MP3
+## downloads a saved YT-playlist(must be unlisted or public)and converts it to *.MP3
 youtube-dl https://www.youtube.com/playlist?list=XXXXXXXXXXXXXXXXXXXXXXX -x --audio-format "mp3" --audio-quality 0 --add-metadata --metadata-from-title "%(artist)s - %(title)s" --verbose -o "/home/pi/Music/%(title)s.%(ext)s"
 
 
-#dowloads a video from tvthek.orf.at (find *.m3u8 playlist first then replace url) converts to *.MP4
+## dowloads a video from tvthek.orf.at (find *.m3u8 playlist first then replace url) converts to *.MP4
 youtube-dl --console-title --hls-prefer-native -c --no-part "https://apasfiis.sf.apa.at/ipad/cms-austria/2019-01-22_2015_in_02_Universum--Dyna_____14002090__o__7702361505__s14434296_Q8C.mp4/playlist.m3u8" -o "/home/pi/Videos/Universum - Löwen.mp4"
 
-#########################################################################################################################
+# features
 
-#id3Tags for fixing the metadata
+### id3Tags for fixing the metadata
 
 https://squell.github.io/id3/
 
-#MPD WebClient
+### MPD WebClient
 
 https://fatg3erman.github.io/RompR/
 
