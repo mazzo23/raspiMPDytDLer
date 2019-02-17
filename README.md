@@ -6,14 +6,14 @@ Basic install routine for all Linux distros(i guess).
 
 #  essentials
 
+**mpd**  
+*The Daemon*
+
 **ffmpeg**  
 *for video and audio conversion*
 
 **youtube-dl**  
 *for downloading youtube and other streams*
-
-**mpd**  
-*The Daemon*
 
 **mpc**  
 *to control the Daemon*
