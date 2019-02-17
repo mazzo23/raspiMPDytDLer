@@ -1,22 +1,22 @@
 # ssh into raspi 
 user=pi	
-pw=w@w  	
+pw=w@w  
 
 ########################################################-MPD-###########################################################
 
-#MPD(Daemon):
+# MPD(Daemon):
 
-#mpd
-sudo apt install mpd
+## mpd
+`sudo apt install mpd`
 
-# make config files:
+## make config files:
 
-mkdir ~/.mpd .ncmpcpp
+'mkdir ~/.mpd .ncmpcpp'
 
-# in .mpd create:
+## in .mpd create:
 touch mpd.conf
 
-#insert:
+## insert:
 nano mpd.conf
 
 ##########################################################
