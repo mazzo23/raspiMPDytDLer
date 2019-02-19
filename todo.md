@@ -1,0 +1,10 @@
+to do :
+
+* save logs on remote computer (laptop)
+* config pixelcollider for github (done)
+* getting familiar with atom (done)  
+* update youtube-dl  (done)
+* downloading a region-blocked video like https://github.com/rg3/youtube-dl
+* update MPD! (version from 2016) need to compile it
+* ncmpcpp wont connect again ... connection refused. (after apt upgrade?)  
+  https://bbs.archlinux.org/viewtopic.php?id=228901 try a socket connection

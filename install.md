@@ -1,14 +1,14 @@
 # MPD(Daemon):
 
-### ssh into raspi 
-`ssh pi@192.168.xxx.xxx` 
+### ssh into raspi
+`ssh pi@192.168.xxx.xxx`
 
 ### mpd
 `sudo apt install mpd`
 
 ### make config files:
 
-`mkdir ~/.mpd .ncmpcpp` 
+`mkdir ~/.mpd .ncmpcpp`
 
 ### in .mpd create:
 `touch mpd.conf`
@@ -34,7 +34,7 @@ audio_output {
     type            "alsa"
     name            "My ALSA Device"
     device          "hw:0,0"        # optional
-   #format          "44100:16:2"    # optional
+    format          "44100:16:2"    # optional
 }
 audio_output {
     type                    "fifo"
@@ -43,7 +43,7 @@ audio_output {
     format                  "44100:16:2"
 }
 
- 
+
 bind_to_address "127.0.0.1"
 port "6600"
 ```
@@ -69,17 +69,17 @@ if not local (client case) then get ip with a scan for the OS.
 # Clients USE this:
 to control the Daemon :)
 
-### ncmpcpp 
+### ncmpcpp
 
 `sudo apt install ncmpcpp` to connect to MPD as client with ncmpcpp/mpc to control the MPD.   
 ncmpcpp is just awesome looking; you can do the same with mpc basically.
 i use it just because its awesome.
 
-`ncmpcpp -h 192.168.0.xxx` ==> to connect to MPD 
+`ncmpcpp -h 192.168.0.xxx` ==> to connect to MPD
 
 ### OR use this:
 
-### mpc 
+### mpc
 `sudo apt install mpc`
 
 ex.:
@@ -149,11 +149,11 @@ song_columns_list_format = "(25)[cyan]{a} (40)[]{f} (30)[red]{b} (7f)[green]{l}"
 to ~92% to counter clipping (better Power Supply would be good) atm running at 1.8A phone charger but no crashes so far
 (no HDMI or USB exept the 64Gb SD)  
 
-# YT-DLer 
+# YT-DLer
 ### Download Youtube Videos and convert them to MP3
 *replace url from the playlist you created in Youtube, and execute the command to download the output to "/home/pi/Music/"*
 
-Console Commands: https://github.com/rg3/youtube-dl/blob/master/README.md#options
+**Console Commands:** https://github.com/rg3/youtube-dl/blob/master/README.md#options
 
 ##### downloads a saved YT-playlist(must be unlisted or public)and converts it to *.MP3  
 `youtube-dl https://www.youtube.com/playlist?list=XXXXXXXXXXXXXXXXXXXXXXX -x --audio-format "mp3" --audio-quality 0 --add-metadata --metadata-from-title "%(artist)s - %(title)s" --verbose -o "/home/pi/Music/%(title)s.%(ext)s"`
@@ -171,5 +171,3 @@ https://fatg3erman.github.io/RompR/
 #### id3Tags for fixing the metadata
 
 https://squell.github.io/id3/
-
-
