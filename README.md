@@ -32,3 +32,4 @@ https://fatg3erman.github.io/RompR/
 
 **tilda**  
 *nice terminal that works well together with ncmpcpp (for client only, no use on raspi)*  
+https://github.com/lanoxx/tilda

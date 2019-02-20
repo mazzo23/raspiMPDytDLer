@@ -50,12 +50,12 @@ port "6600"
 ### Start/Restart MPD:
 
 ### start(local)
-`mpd`
-`mpc stats`
-`mpc play`
+`mpd`  
+`mpc stats`  
+`mpc play`  
 
 to kill the Daemon
-`sudo killall mpd` or `pidof mpd` then`kill PID`
+`sudo killall mpd` or `pidof mpd` then `kill PID`
 
 # MPC(Client):
 ### Remoteconnection(client to MPD):
@@ -72,12 +72,13 @@ to control the Daemon :)
 ### ncmpcpp
 
 `sudo apt install ncmpcpp` to connect to MPD as client with ncmpcpp/mpc to control the MPD.   
-ncmpcpp is just awesome looking; you can do the same with mpc basically.
+ncmpcpp is just awesome looking; you can do the same with mpc basically.   
 i use it just because its awesome.
 
 `ncmpcpp -h 192.168.0.xxx` ==> to connect to MPD
 
-### OR use this:
+### OR use this:  
+*install it anyway because you use it for a manual DB update*  
 
 ### mpc
 `sudo apt install mpc`
@@ -90,8 +91,9 @@ ex.:
 
 or (when local)
 
-`mpc stats`
-`mpc play`
+`mpc stats`  
+`mpc play`  
+`mpc update`  to update DB after adding more files.
 
 ### in .ncmpcpp create:#
 
@@ -142,12 +144,12 @@ song_columns_list_format = "(25)[cyan]{a} (40)[]{f} (30)[red]{b} (7f)[green]{l}"
 
 `sudo apt install alsa-utils`
 
-#### important!... was looking too long for this setting(no GUI)... just turn it up a bit Oo
+#### important!... was looking too long for this setting(no GUI)... just turn it up a bit
 
 `alsamixer`
 
-to ~92% to counter clipping (better Power Supply would be good) atm running at 1.8A phone charger but no crashes so far
-(no HDMI or USB exept the 64Gb SD)  
+to ~92% to counter clipping (better Power Supply would be good) atm running a 1.8A phone charger but no crashes so far
+(no HDMI or USB exept the 64Gb SD)
 
 # YT-DLer
 ### Download Youtube Videos and convert them to MP3
@@ -159,7 +161,7 @@ to ~92% to counter clipping (better Power Supply would be good) atm running at 1
 `youtube-dl https://www.youtube.com/playlist?list=XXXXXXXXXXXXXXXXXXXXXXX -x --audio-format "mp3" --audio-quality 0 --add-metadata --metadata-from-title "%(artist)s - %(title)s" --verbose -o "/home/pi/Music/%(title)s.%(ext)s"`
 
 
-##### dowloads a video from tvthek.orf.at (find *.m3u8 playlist first then replace url) converts to *.MP4  
+##### dowloads a video from tvthek.orf.at (find *.m3u8 playlist first then replace url) converts it to *.MP4  
 `youtube-dl --console-title --hls-prefer-native -c --no-part "https://apasfiis.sf.apa.at/ipad/cms-austria/2019-01-22_2015_in_02_Universum--Dyna_____14002090__o__7702361505__s14434296_Q8C.mp4/playlist.m3u8" -o "/home/pi/Videos/Universum - Löwen.mp4"`
 
 ## cool features

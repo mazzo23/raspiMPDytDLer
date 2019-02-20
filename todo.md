@@ -1,6 +1,6 @@
 to do :
 
-* save logs on remote computer (laptop)
+* save logs on remote computer (laptop) (syslog-ng)
 * config pixelcollider for github (done... 4096 bit rsa key)
 * getting familiar with atom (done... really nice)  
 * update youtube-dl  (done... youtube-dl -U)
