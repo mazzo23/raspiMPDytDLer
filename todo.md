@@ -8,3 +8,4 @@ to do :
 * update MPD! (version from 2016) need to compile it
 * ncmpcpp wont connect again ... connection refused. (after apt upgrade?) - (done... restart all services or reboot)
 * https://bbs.archlinux.org/viewtopic.php?id=228901 try a socket connection
+* connect to other netwok over wifi config like this https://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/
