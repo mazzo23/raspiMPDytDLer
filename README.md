@@ -35,5 +35,5 @@ https://fatg3erman.github.io/RompR/
 https://github.com/lanoxx/tilda
 
 **GPIO to control the Daemon directly**
-*to be able to press some buttons
-https://sourceforge.net/p/raspberry-gpio-python/
+*to be able to press some buttons wired to the pi
+https://pypi.org/project/RPi.GPIO/
