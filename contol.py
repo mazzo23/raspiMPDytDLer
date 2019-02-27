@@ -1,3 +1,3 @@
-import RPi.GPIO as GPIO
+import RPi.GPIO as IO
 import time
 import os
