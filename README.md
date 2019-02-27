@@ -1,6 +1,6 @@
 # Installation of raspiMPDytDLer:
 
-This guide assumes you already have a clean raspbian with all nessesary network stuff configured and ready to go.
+This guide assumes you already have a clean raspbian with all necessary network stuff configured and ready to go.
 Here is where we start.
 Basic install routine for all Linux distros (i guess).
 
