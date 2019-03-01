@@ -157,22 +157,17 @@ to ~92% to counter clipping (better Power Supply would be good) atm running a 1.
 
 **Console Commands:** https://github.com/rg3/youtube-dl/blob/master/README.md#options
 
-##### downloads a saved YT-playlist(must be unlisted or public)and converts it to *.MP3  
+##### downloads a saved YT-playlist(must be unlisted or public)and converts it to .MP3
 `youtube-dl https://www.youtube.com/playlist?list=XXXXXXXXXXXXXXXXXXXXXXX -x --audio-format "mp3" --audio-quality 0 --add-metadata --metadata-from-title "%(artist)s - %(title)s" --verbose -o "/home/pi/Music/%(title)s.%(ext)s"`
 
 
-##### dowloads a video from tvthek.orf.at (find *.m3u8 playlist first then replace url) converts it to *.MP4  
+##### dowloads a video from tvthek.orf.at (find .m3u8 playlist first then replace url) converts it to .MP4  
 `youtube-dl --console-title --hls-prefer-native -c --no-part "https://apasfiis.sf.apa.at/ipad/cms-austria/2019-01-22_2015_in_02_Universum--Dyna_____14002090__o__7702361505__s14434296_Q8C.mp4/playlist.m3u8" -o "/home/pi/Videos/Universum - Löwen.mp4"`
 
 # Additional features
 
-#### MPD WebClient
-
-https://fatg3erman.github.io/RompR/
-
 #### Hardware buttons to contol the MPD
-[MPD_buttons.md]  
+[Buttons](MPD_buttons.md)
 
-#### id3Tags for fixing the metadata
-
-https://squell.github.io/id3/
+#### MPD WebClient
+[RompR] (https://fatg3erman.github.io/RompR/)
