@@ -3,11 +3,11 @@
 install/update GPIO (GeneralPurposeInputOutput)
 https://sourceforge.net/p/raspberry-gpio-python/
 
-´sudo apt-get update´  
-´sudo apt-get install python-rpi.gpio python3-rpi.gpio´
+`sudo apt-get update`  
+`sudo apt-get install python-rpi.gpio python3-rpi.gpio`
 
 ### get an overview of the pin layout:
-´pinout´
+`pinout`
 
 ## GPIO examples:  
 
@@ -27,18 +27,18 @@ you need:
 
 
 start python the IDE:
-´python´
+`python`
 enter every line with a return
-´´´
+```
 import RPi.GPIO as IO
 IO.setmode(IO.BCM)
 IO.setup(18,IO.OUT)
 IO.output(18,IO.HIGH)
-´´´
+```
 or  
-´IO.output(18,1)´  
+`IO.output(18,1)`  
 or  
-´IO.output(18,True)´
+`IO.output(18,True)`
 
 [example LED] (https://imgur.com/a/gdOHATE) url almost spells godHATE^^
 
@@ -51,13 +51,13 @@ jumper cables
 breadbard
 
 start python the IDE:  
-´python´  
+`python`  
 enter every line with a return  
-´´´
+```
 import RPi.GPIO as IO
 IO.setmode(IO.BCM)
 IO.setup(4,IO.IN)
-´´´  
+```  
 **get status of the pin:**
 
-´IO.input(4)´
+`IO.input(4)`
