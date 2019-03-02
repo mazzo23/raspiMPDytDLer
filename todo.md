@@ -3,10 +3,9 @@ to do :
 - [ ] save logs on remote computer (laptop) (syslog-ng)
 - [ ] update MPD! (version from 2016) need to compile it
 - [ ] https://bbs.archlinux.org/viewtopic.php?id=228901 try a socket connection
-- [ ] config autostart MPD
-- [ ] HW buttons config
+- [ ] config autostart python control.py
+- [x] HW buttons config
 - [x] install/update GPIO https://learn.sparkfun.com/tutorials/raspberry-gpio/python-rpigpio-api  
 - [ ] write MPD_buttons.md tutorial
-- [ ] write control.py script
-- [] add ffmpeg to install
-- [] make contol.py exit clean with call to GPIO.cleanup()
+- [x] write control.py script
+- [x] make contol.py exit clean with call to GPIO.cleanup()

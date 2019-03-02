@@ -27,7 +27,7 @@ https://sourceforge.net/p/raspberry-gpio-python/
 * Breadboard
 * jumper cables
 
-pic
+*add pic of circuit*
 
 **start python the IDE:**
 
@@ -56,7 +56,7 @@ or
 * jumper cables
 * breadbard
 
-pic
+*add pic of circuit*
 
 **start python the IDE:**
 
