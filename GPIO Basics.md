@@ -70,3 +70,6 @@ IO.setup(4,IO.IN)
 **get status of the pin:**
 
 `IO.input(4)`
+
+[![example readout](https://imgur.com/WChMVI2)]
+https://imgur.com/a/uGHfP1S

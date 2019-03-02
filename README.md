@@ -34,6 +34,6 @@ https://fatg3erman.github.io/RompR/
 *nice terminal that works well together with ncmpcpp (for client only, no use on raspi)*  
 https://github.com/lanoxx/tilda
 
-**GPIO to control the Daemon directly**
-*to be able to press some buttons wired to the pi
+**GPIO to control the Daemon directly**  
+*to be able to press some buttons wired to the pi  
 https://pypi.org/project/RPi.GPIO/
