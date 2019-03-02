@@ -22,11 +22,12 @@ https://sourceforge.net/p/raspberry-gpio-python/
 ### lets make GPIO control a LED:
 
 **you need:**  
-* 300 resistor
+* 300 ohm resistor
 * LED
 * Breadboard
 * jumper cables
 
+pic
 
 **start python the IDE:**
 
@@ -45,15 +46,17 @@ or
 or  
 `IO.output(18,True)`
 
-[example LED](https://imgur.com/a/gdOHATE) url almost spells godHATE^^
+![example LED](https://i.imgur.com/0ZhBEJY.png "example output")
 
 ### lets make GPIO read an input:
 
 **you need:**  
-* 10k resistor
+* 10k ohm resistor
 * button
 * jumper cables
 * breadbard
+
+pic
 
 **start python the IDE:**
 
@@ -71,5 +74,8 @@ IO.setup(4,IO.IN)
 
 `IO.input(4)`
 
-![example readout](https://i.imgur.com/WChMVI2.png "example readout")]
+![example readout](https://i.imgur.com/WChMVI2.png "example readout")  
+button connected to pin 4. button not pressed returns 0 - button pressed returns 1
+
+https://imgur.com/a/gdOHATE url almost spells godHATE^^  
 https://imgur.com/a/uGHfP1S
