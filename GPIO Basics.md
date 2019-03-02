@@ -71,5 +71,5 @@ IO.setup(4,IO.IN)
 
 `IO.input(4)`
 
-[![example readout](https://imgur.com/WChMVI2)]
+![example readout](https://i.imgur.com/WChMVI2.png "example readout")]
 https://imgur.com/a/uGHfP1S
