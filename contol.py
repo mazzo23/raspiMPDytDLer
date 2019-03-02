@@ -30,6 +30,7 @@ try:
             time.sleep(0.3)
         if seek_f == 1:
             os.system('mpc seek +5%')
+	    time.sleep(0.3)
         if seek_b == 1:
             os.system('mpc seek -5%')
             time.sleep(0.3)
