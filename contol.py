@@ -24,17 +24,14 @@ try:
         seek_b = io.input(27)   	#seek backward (-5% of the song)
         next = io.input(22)     	#next title
         stop = io.input(23)     	#stop playback
-        LED_on = io.output(24,1)	#green LED on
-        LED_off = io.output(24,0)	#green LED off
 
-	if x == True:
-	    io.output(24,1)
-	if x == False:
-	    io.output(24,0)
-	    time.sleep(0.5)
-	    io.output(24,1)
- 	    time.sleep(0.5)
-
+    	if x == True:
+    	    io.output(24,1)
+    	if x == False:
+    	    io.output(24,0)
+    	    time.sleep(0.5)
+    	    io.output(24,1)
+     	    time.sleep(0.5)
 
         if toggle == 1:
             os.system('mpc toggle')
