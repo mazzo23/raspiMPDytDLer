@@ -1,4 +1,4 @@
-to do :
+## TODO :
 
 - [ ] save logs on remote computer (laptop) (syslog-ng but dont care atm)
 - [ ] update MPD! (version from 2016) need to compile it
@@ -10,4 +10,5 @@ to do :
 - [x] write control.py script
 - [x] make contol.py exit clean with call to GPIO.cleanup()
 - [ ] add a status LED to control.py ; where on is playing, blinking is pause, off is stopped
+- [ ] check why script is stopping when seeking back 5% on the start of the song (when the song played <= 5%)
 - [ ] design a case for raspi
