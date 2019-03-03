@@ -10,3 +10,4 @@ to do :
 - [x] write control.py script
 - [x] make contol.py exit clean with call to GPIO.cleanup()
 - [ ] add a status LED to control.py ; where on is playing, blinking is pause, off is stopped
+- [ ] design a case for raspi

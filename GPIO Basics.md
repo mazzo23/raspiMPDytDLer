@@ -54,7 +54,7 @@ or
 * 10k ohm resistor
 * button
 * jumper cables
-* breadbard
+* Breadbard
 
 *add pic of circuit*
 
