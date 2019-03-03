@@ -28,12 +28,12 @@ try:
         LED_off = io.output(24,0)	#green LED off
 
 	if x == True:
-	    LED_on
-	    time.sleep(0.5)
-	    LED_off
-	    time.sleep(0.5)
+	    io.output(24,1)
 	if x == False:
-	    LED_off
+	    io.output(24,0)
+	    time.sleep(0.5)
+	    io.output(24,1)
+ 	    time.sleep(0.5)
 
 
         if toggle == 1:
