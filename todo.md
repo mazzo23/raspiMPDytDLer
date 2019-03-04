@@ -9,6 +9,6 @@
 - [ ] write GPIO Basics.md tutorial
 - [x] write control.py script
 - [x] make contol.py exit clean with call to GPIO.cleanup()
-- [ ] add a status LED to control.py ; where on is playing, blinking is pause, off is stopped
+- [x] add a status LED to control.py ; where on is playing, blinking is pause, off is stopped
 - [ ] check why script is stopping when seeking back 5% on the start of the song (when the song played <= 5%)
 - [ ] design a case for raspi
