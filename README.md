@@ -30,7 +30,7 @@ https://rybczak.net/ncmpcpp/
 *MPD Client for Android*  
 https://play.google.com/store/apps/details?id=org.gateshipone.malp
 
-**MPDroid**
+**MPDroid**  
 *MPD Client for Android*  
 https://play.google.com/store/apps/details?id=com.namelessdev.mpdroid
 
