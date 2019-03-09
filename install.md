@@ -167,7 +167,7 @@ to ~92% to counter clipping (better Power Supply would be good) atm running a 1.
 # Additional features
 
 #### Hardware buttons to contol the MPD
-[MPD Buttons](GPIO Basics.md)
+[MPD Buttons]("GPIO Basics.md")
 
 #### MPD WebClient
 [RompR](https://fatg3erman.github.io/RompR/)

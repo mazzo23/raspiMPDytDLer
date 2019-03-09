@@ -26,6 +26,10 @@ https://www.musicpd.org/clients/mpc/
 *Commandline player... next lvl control of the Daemon*  
 https://rybczak.net/ncmpcpp/
 
+**MPDroid**
+*MPD Client for Android*  
+https://play.google.com/store/apps/details?id=com.namelessdev.mpdroid
+
 **Rompr**  
 *Webinterface... ultimate control of the Daemon*  
 https://fatg3erman.github.io/RompR/
