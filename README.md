@@ -26,8 +26,8 @@ https://www.musicpd.org/clients/mpc/
 *Commandline player... next lvl control of the Daemon*  
 https://rybczak.net/ncmpcpp/
 
-**M.A.L.P.**
-*MPD Client for Android*
+**M.A.L.P.**  
+*MPD Client for Android*  
 https://play.google.com/store/apps/details?id=org.gateshipone.malp
 
 **MPDroid**
