@@ -12,3 +12,8 @@
 - [x] add a status LED to control.py ; where on is playing, blinking is pause, off is stopped
 - [ ] check why script is stopping when seeking back 5% on the start of the song (when the song played <= 5%)
 - [ ] design a case for raspi
+
+- [ ] make a new repo for Replicator 2X
+- [ ] use Cura for Replicator 2X
+- [ ] fix second extruder on Replicator 2X
+- [ ] write code_injector.py for second extruder printing at the same time (a script that injects Heat and Extruder commands into gcode)
