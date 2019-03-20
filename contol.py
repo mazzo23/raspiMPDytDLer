@@ -29,9 +29,9 @@ try:
     	    io.output(24,1)
     	if x == False:
     	    io.output(24,0)
-    	    time.sleep(0.5)
+    	    time.sleep(0.25)
     	    io.output(24,1)
-     	    time.sleep(0.5)
+     	    time.sleep(0.25)
 
         if toggle == 1:
             os.system('mpc toggle')
@@ -50,6 +50,7 @@ try:
             os.system('mpc next')
             time.sleep(0.3)
         if stop == 1:
+            io.output(24,0)
             os.system('mpc stop')
             time.sleep(0.3)
 
