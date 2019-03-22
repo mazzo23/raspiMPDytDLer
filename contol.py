@@ -25,13 +25,13 @@ try:
         next = io.input(22)     	#next title
         stop = io.input(23)     	#stop playback
 
-    	if x == True:
-    	    io.output(24,1)
-    	if x == False:
-    	    io.output(24,0)
-    	    time.sleep(0.25)
-    	    io.output(24,1)
-     	    time.sleep(0.25)
+        if x == True:
+            io.output(24,1)
+        if x == False:
+            io.output(24,0)
+            time.sleep(0.25)
+            io.output(24,1)
+            time.sleep(0.25)
 
         if toggle == 1:
             os.system('mpc toggle')
@@ -55,7 +55,7 @@ try:
             time.sleep(0.3)
 
 except KeyboardInterrupt:
-    print "ontrol + C was pressed, exit with cleanup()"
+    print ("ontrol + C was pressed, exit with cleanup()")
 
 finally:
     io.cleanup()
